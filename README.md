@@ -2,7 +2,7 @@
 
 My Video On It - https://www.youtube.com/watch?v=zr9rF5x8NEw
 
-This is the most complex and technical project I have built so far. It is a fully functional DIY FDM 3D printer built using RAMPS 1.4, Marlin firmware, Klipper and an Arduino Mega 2560.
+This is the most complex and technical project I have built so far. It is a fully functional DIY FDM 3D printer built using RAMPS 1.4, Marlin firmware, Klipper, Arduino Mega 2560 and some burnt components (haha wait that wasn't funny?).
 
 This printer is the result of over three years of research and experimentation in 3D printing. Interestingly, this is also the first 3D printer I have ever seen in real life, since I designed and built it myself without having prior hands-on exposure to commercial machines.
 
