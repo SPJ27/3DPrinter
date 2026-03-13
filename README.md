@@ -1,12 +1,12 @@
 # DIY 3D Printer
 
-This is the **most complex and technically challenging project I have built so far**. It is a fully functional **DIY FDM 3D printer** built using **RAMPS 1.4**, **Marlin firmware**, **Klipper** and an **Arduino Mega 2560**.
+My Video On It - https://www.youtube.com/watch?v=zr9rF5x8NEw
 
-This printer is the result of **over three years of research and experimentation in 3D printing**. Interestingly, this is also the **first 3D printer I have ever seen in real life**, since I designed and built it myself without having prior hands-on exposure to commercial machines.
+This is the most complex and technical project I have built so far. It is a fully functional DIY FDM 3D printer built using RAMPS 1.4, Marlin firmware, Klipper and an Arduino Mega 2560.
 
-While the print quality is slightly lower than modern commercial printers such as **Bambu Lab or Ender series printers**, it is still capable of producing **accurate and reliable prints suitable for prototyping and functional parts**.
+This printer is the result of over three years of research and experimentation in 3D printing. Interestingly, this is also the first 3D printer I have ever seen in real life, since I designed and built it myself without having prior hands-on exposure to commercial machines.
 
----
+While the print quality is slightly lower than printers such as **Bambu Lab or Ender series printers**, it is still capable of printing accurate and reliable prints.
 
 # Hardware Overview
 
@@ -20,8 +20,6 @@ The printer is built using the following core components:
 * **Hotend:** Standard FDM hotend
 * **Power Supply:** 12V high-current PSU
 
----
-
 # Electronics and Circuit
 
 The electronics are based on the **RAMPS 1.4 + Arduino Mega architecture**, which is a widely used open-source 3D printer control system.
@@ -29,8 +27,6 @@ The electronics are based on the **RAMPS 1.4 + Arduino Mega architecture**, whic
 I followed the circuit design below and used several online references while building and wiring the system.
 
 <img width="3088" height="2225" alt="image" src="https://github.com/user-attachments/assets/8928c11e-7abd-40b6-a8d8-8461871a5fa5" />
-
----
 
 # Printer Specifications
 
@@ -44,17 +40,13 @@ I followed the circuit design below and used several online references while bui
 | Z Motion            | Lead screw        |
 | Frame               | Custom-built      |
 
----
-
 # Features
 
-* Fully **open-source firmware (Marlin) alongside Klipper**
+* Fully open-source firmware (Marlin) alongside Klipper
 * Custom-built mechanical frame
-* Tuned **stepper calibration**
-* Capable of producing **high-quality prototype parts**
+* Tuned stepper calibration
+* Capable of producing high-quality prototype parts
 * Built completely from scratch without a pre-built kit
-
----
 
 # Important Build Notes
 
@@ -74,34 +66,7 @@ All belts and pulleys must be **properly tensioned**. Loose belts can lead to **
 
 Always ensure **all wires are tightly secured and properly insulated**. Loose wires can cause **short circuits and potential fire hazards**.
 
----
-
-# Challenges I Solved
-
-Building this printer involved solving several technical challenges:
-
-* Configuring and compiling **Marlin firmware**
-* Calibrating **stepper motors and motion parameters**
-* Fixing **mechanical alignment issues**
-* Troubleshooting **print quality problems**
-* Managing **high-current wiring safely**
-
----
-
-# What I Learned
-
-This project taught me many concepts across **mechanical engineering, electronics, and embedded systems**:
-
-* Firmware configuration with **Marlin**
-* Stepper motor control and calibration
-* Mechanical frame alignment
-* Motion system tuning
-* Electrical safety and power distribution
-* 3D printing troubleshooting
-
----
-
-# 🚀 Future Improvements
+# Future Improvements
 
 Planned upgrades include:
 
