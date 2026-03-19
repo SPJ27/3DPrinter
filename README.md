@@ -6,14 +6,14 @@ This is the most complex and technical project I have built so far. It is a full
 
 While the print quality is not as good as printers Bambu Lab or Ender series printers, it is still capable of printing accurate and reliable prints.
 
-[Demo 1](Demo%201.jpeg)
-[Demo 2](Demo%202.jpeg)
+![Demo 1](Demo%201.jpeg)
+![Demo 2](Demo%202.jpeg)
 
 # Does it actually work?
 
 Yes, it absolutely does. In fact, I have printed several things till now. For example - 
 
-[Parts Demo](demo.mp4)
+![Parts Demo](demo.mp4)
 
 # How to use it?
 
