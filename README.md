@@ -6,6 +6,22 @@ This is the most complex and technical project I have built so far. It is a full
 
 While the print quality is not as good as printers Bambu Lab or Ender series printers, it is still capable of printing accurate and reliable prints.
 
+[Demo 1](Demo%201.jpeg)
+[Demo 2](Demo%202.jpeg)
+
+# Does it actually work?
+
+Yes, it absolutely does. In fact, I have printed several things till now. For example - 
+
+[Parts Demo](demo.mp4)
+
+# How to use it?
+
+1. Get the .stl file - Design it yourself or download from the internet
+2. Slice it - Modify the speed, density, infill patterns, support, etc.
+3. Upload the .GCODE file to the printer - Use pronterface or SD Card
+4. The printer performs the magic
+
 # Hardware Overview
 
 The printer is built using the following core components:
@@ -71,6 +87,12 @@ One thing that I would like to suggest is that rather than making it out of wood
 You can buy the parts from here - [Prusa i3 parts](https://www.amazon.in/Prusa-MK3-3D-Printer-Printed-Parts/dp/B09FYZVPH7)
 
 You can also 3D print the **.stl files** in this repo if you know someone who can do it for you but use **PETG** or **ABS**.
+
+Also, you can follow the [Prusa i3 Guide](https://www.bu.edu/eng/files/2022/10/prusa3d_manual_mk3s_en.pdf) and buy hardware parts accordingly
+
+If you still want to build it using PVC and Wood, you can watch this [amazing video](https://www.youtube.com/watch?v=MC2ERhZPnUU) by Mech Ninja (the one that I followed). But the video is slightly incomplete, and you need to figure out a few things on your own.
+
+If you have any queries regarding this, you can always email me on <saksham.khatod27@gmail.com>.
 
 # Features
 
