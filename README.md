@@ -68,7 +68,7 @@ I followed the circuit design below and used several online references while bui
 
 One thing that I would like to suggest is that rather than making it out of wood or PVC pipe (like a did), you should follow the Prusa i3 guide (structure is very similar) as it would be sturdier and better in terms of durability and printing quality.
 
-You can buy the parts from here - (Parts for structre)[https://www.amazon.in/Prusa-MK3-3D-Printer-Printed-Parts/dp/B09FYZVPH7]
+You can buy the parts from here - [Prusa i3 parts](https://www.amazon.in/Prusa-MK3-3D-Printer-Printed-Parts/dp/B09FYZVPH7)
 
 You can also 3D print the **.stl files** in this repo if you know someone who can do it for you but use **PETG** or **ABS**.
 
