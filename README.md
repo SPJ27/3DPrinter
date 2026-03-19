@@ -31,7 +31,6 @@ I followed the circuit design below and used several online references while bui
 | Component | Robu.in (Cheaper) | Amazon (Global) |
 |-----------|-------------------|-----------------|
 | (Optional) Full Electronics Kit | [₹7671](https://robu.in/product/componant-kit-for-3d-printer-all-in-1/) | Not available as full kit |
-
 | 1x Mega2560 | [₹1059](https://robu.in/product/atmel-mcu-atmega16u2-mega-2560-r3-improved-version-ch340g-board/) | https://www.amazon.com/s?k=arduino+mega+2560 |
 | 1x RAMPS 1.4 Shield | [₹271](https://robu.in/product/3d-printer-controller-board-ramps-1-4-arduino-mega-shield-reprap-prusa-model/) | https://www.amazon.com/s?k=ramps+1.4 |
 | 5x A4988 Stepper Drivers | https://robu.in/product/a4988-stepper-motor-driver-module/ | https://www.amazon.com/s?k=a4988+stepper+driver |
