@@ -41,8 +41,6 @@ I followed the circuit design below and used several online references while bui
 | 1x MK8 Extruder Kit | [₹1773](https://robu.in/product/mk8-extruder-kit-makerbot-prusa-i3-3d-printer-1-75-0-4mm-printhead/) | [Search on Amazon](https://www.amazon.com/s?k=mk8+extruder) |
 | 2x 100K Thermistors | [₹99 (approx)](https://robu.in/product/100k-ntc-thermistor/) | [Search on Amazon](https://www.amazon.com/s?k=100k+thermistor+3d+printer) |
 
----
-
 ### Cost Summary
 
 - **Full Kit Cost:** ₹7671  
@@ -60,17 +58,19 @@ I followed the circuit design below and used several online references while bui
 
 **Total Individual Cost ≈ ₹8463**
 
-# Printer Specifications
+# Code Upload
 
-| Feature             | Specification     |
-| ------------------- | ----------------- |
-| Firmware            | Marlin and Klipper|
-| Controller          | Arduino Mega 2560 |
-| Control Board       | RAMPS 1.4         |
-| Printing Technology | FDM               |
-| Motion System       | Belt-driven X/Y   |
-| Z Motion            | Lead screw        |
-| Frame               | Custom-built      |
+1. Attach all of the components as per the diagram above
+2. Download the Marlin Code (Optimized for Ramps1.4)
+3. Upload **Marlin.ino** in the Mega2560
+
+# Structure
+
+One thing that I would like to suggest is that rather than making it out of wood or PVC pipe (like a did), you should follow the Prusa i3 guide (structure is very similar) as it would be sturdier and better in terms of durability and printing quality.
+
+You can buy the parts from here - (Parts for structre)[https://www.amazon.in/Prusa-MK3-3D-Printer-Printed-Parts/dp/B09FYZVPH7]
+
+You can also 3D print the **.stl files** in this repo if you know someone who can do it for you but use **PETG** or **ABS**.
 
 # Features
 
