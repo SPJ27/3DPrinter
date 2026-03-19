@@ -2,9 +2,13 @@
 
 My Video On It - https://www.youtube.com/watch?v=zr9rF5x8NEw
 
-This is the most complex and technical project I have built so far. It is a fully functional DIY FDM 3D printer built using RAMPS 1.4, Marlin firmware, Klipper, Arduino Mega 2560 and some burnt components (haha wait that wasn't funny?).
+This is the 3D printer that I built from scratch. It is also the most technically challenging project that I have built till now. This runs Marlin on the Mega2560 main board and Klipper on a Raspberry Pi Zero 2W. 
 
-While the print quality is not as good as printers Bambu Lab or Ender series printers, it is still capable of printing accurate and reliable prints.
+The build volume is about 22cm, which is pretty good in comparison to other cheap printer. It costed me about $135 (₹12500). It uses Marlin 1.3, which is kind of old, but it is completely modified and optimized for my printer, and works great.
+
+I have built 3/4 versions of it till now. The first version was terrible, it worked but the print quality wasn't good. The second one produced managable prints, and the current one produces high quality prints that are visually appealing. 
+
+Also, this was my first time seeing a 3D printer in real life. I don't have any experience with 3D printers or designing, but I do make a lot of hardware stuff, so making this was a necessity.
 
 ![Demo 1](Demo%201.jpeg)
 ![Demo 2](Demo%202.jpeg)
@@ -123,8 +127,6 @@ Always ensure **all wires are tightly secured and properly insulated**. Loose wi
 Planned upgrades include:
 
 * Auto bed leveling
-* Better cooling system
-* Improved frame rigidity
 * Higher precision motion tuning
 * Display interface for printer control
 * Multicolour prints
