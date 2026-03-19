@@ -13,7 +13,10 @@ While the print quality is not as good as printers Bambu Lab or Ender series pri
 
 Yes, it absolutely does. In fact, I have printed several things till now. For example - 
 
-![Parts Demo](demo.mp4)
+<video width="600" controls>
+  <source src="demo.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
 
 # How to use it?
 
