@@ -27,13 +27,22 @@ I followed the circuit design below and used several online references while bui
 <img width="3088" height="2225" alt="image" src="https://github.com/user-attachments/assets/8928c11e-7abd-40b6-a8d8-8461871a5fa5" />
 
 # List of Components (India/Global)
-| Component | Robu.in (Cheaper) | Amazon |
-|-----------|-------------------|------------------|
-| (Optional) Electronics Component Kit (RAMPS 1.4, Mega2560, 4x Stepper Motors, 2004 LCD, A4988 Motor Driver, Extruder Motor, Endstops, Heated Bed, Hotend) | [₹7671](https://robu.in/product/componant-kit-for-3d-printer-all-in-1/)| I couldn't find any similar kit so you can buy them individually from below |
-| Mega2560 | [₹1059](https://robu.in/product/atmel-mcu-atmega16u2-mega-2560-r3-improved-version-ch340g-board/) | [$14](https://www.google.com/search?q=arduino+mega+amazon.com&sca_esv=cd962c5e58ff07e4&biw=1129&bih=680&udm=28&sxsrf=ANbL-n4Dt8tXhPedx_8lWkKXQkLY0vJbLg:1773886027170&ei=S1q7abeFCo3DjuMP0OyHyAg&ved=0ahUKEwj31pW08KqTAxWNoWMGHVD2AYkQ4dUDCCU&uact=5&oq=arduino+mega+amazon.com&gs_lp=Ehlnd3Mtd2l6LW1vZGVsZXNzLXNob3BwaW5nIhdhcmR1aW5vIG1lZ2EgYW1hem9uLmNvbUjsEVDmBli9EHACeAGQAQCYAXqgAccFqgEDMC42uAEDyAEA-AEBmAIFoAL3AsICChAAGEcY1gQYsAPCAgcQIxi0BBgnwgIGEAAYFhgewgIFEAAYgASYAwCIBgGQBgiSBwMyLjOgB4sGsgcDMC4zuAfsAsIHAzktNcgHzbsrgAgB&sclient=gws-wiz-modeless-shopping#sv=CAYS6QESABosMmFoVUtFd2pJbi1UNDhLcVRBeFhiMVRnR0hiamJMQXNRZ2kxNkJBZ2FFQlUihQEKEzc0MDU4NTQ0NzY5MjQ3MjU4MDUSEzEzNTk1MTQ3MjgwMzA2Njg2ODgaACITNTQzNjc3MTExMjg3MTYyNDM3OCoAMhM2ODIyMjMzMDg5MzY3MTUxMTMxOgBKAmhnUgBiAGoAigEAoAEDsAEAwgEAygEA2gEA4gEA8AEA-gEAkgIA2gIAMABCLTJhaFVLRXdqSW4tVDQ4S3FUQXhYYjFUZ0dIYmpiTEFzUXJvZ0dlZ1FJR2hBTiDLgfzJDjACSggQAhgBIAEoAQ)
-| Ramps 1.4 | [₹271](https://robu.in/product/3d-printer-controller-board-ramps-1-4-arduino-mega-shield-reprap-prusa-model/) | [$7](https://www.amazon.in/Electrobot-Printer-Controller-Shield-Arduino/dp/B08LS62N79)
-| Nema17 Stepper Motors | 
 
+| Component | Robu.in (Cheaper) | Amazon (Global) |
+|-----------|-------------------|-----------------|
+| (Optional) Full Electronics Kit | [₹7671](https://robu.in/product/componant-kit-for-3d-printer-all-in-1/) | Not available as full kit |
+
+| 1x Mega2560 | [₹1059](https://robu.in/product/atmel-mcu-atmega16u2-mega-2560-r3-improved-version-ch340g-board/) | https://www.amazon.com/s?k=arduino+mega+2560 |
+| 1x RAMPS 1.4 Shield | [₹271](https://robu.in/product/3d-printer-controller-board-ramps-1-4-arduino-mega-shield-reprap-prusa-model/) | https://www.amazon.com/s?k=ramps+1.4 |
+| 5x A4988 Stepper Drivers | https://robu.in/product/a4988-stepper-motor-driver-module/ | https://www.amazon.com/s?k=a4988+stepper+driver |
+| 4x NEMA17 Stepper Motors | [₹571](https://robu.in/product/pro-range-nema17-pr42hs40-1504-4-2-kg-cm-stepper-motor-d-type-shaft/) | https://www.amazon.com/s?k=nema+17+stepper+motor |
+| 1x 2004 LCD Controller | [₹635](https://robu.in/product/2004-lcd-display-smart-controller-w-adapter/) | https://www.amazon.com/s?k=reprap+discount+smart+controller+2004 |
+| 6x Mechanical Endstops | https://robu.in/product/mechanical-endstop-limit-switch-module/ | https://www.amazon.com/s?k=3d+printer+endstop |
+| 1x MK3 Heated Bed | https://robu.in/product/mk3-aluminum-heated-bed/ | https://www.amazon.com/s?k=mk3+heated+bed |
+| 1x MK8 Extruder Kit | https://robu.in/product/mk8-extruder-kit/ | https://www.amazon.com/s?k=mk8+extruder |
+| 1x MK8 Hotend | https://robu.in/product/mk8-hotend-kit/ | https://www.amazon.com/s?k=mk8+hotend |
+| 2x 100K Thermistors | https://robu.in/product/100k-ntc-thermistor/ | https://www.amazon.com/s?k=100k+thermistor+3d+printer |
+| 1x USB Cable (Type B) | https://robu.in/product/usb-2-0-a-to-b-cable/ | https://www.amazon.com/s?k=usb+a+to+b+cable |
 
 
 # Printer Specifications
