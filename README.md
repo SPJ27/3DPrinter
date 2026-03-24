@@ -17,6 +17,17 @@ Also, this was my first time seeing a 3D printer in real life. I don't have any 
 
 Yes, it absolutely does. In fact, I have printed several things till now. The video has some of my best prints till now.
 
+# New Update! - Created a web-based ESP32 Print Dashboard
+
+I have created basic ESP32 based dashboard that can send commands via the internet. 
+To use - 
+1. Upload the main.ino code to esp32.
+2. Connect the esp RX0 and TX0 to the Mega2560
+3. Power it on via the ramps mainboard
+4. Go to the respected server ID and send the Marlin commands. 
+I am planning to improve this interface for wireless prints (similar to klipper)
+For example - M500, M600, etc.
+
 # How to use it?
 
 1. Get the .stl file - Design it yourself or download from the internet
@@ -79,7 +90,7 @@ I followed the circuit design below and used several online references while bui
 # Code Upload
 
 1. Attach all of the components as per the diagram above
-2. Download the Marlin Code (Optimized for Ramps1.4)
+2. Download the Marlin Code (1.1.7 or 2.1.2.7 - These are the best versions for it)
 3. Upload **Marlin.ino** in the Mega2560
 
 # Structure
@@ -96,6 +107,15 @@ If you still want to build it using PVC and Wood, you can watch this [amazing vi
 
 If you have any queries regarding this, you can always email me on <saksham.khatod27@gmail.com>.
 
+# A Very Rough Overview on Building it
+
+1. Get all of the parts as mentioned above along with Prusa i3 parts and hardware parts above.
+2. Now what you have to do is assemble the structure as per the guide (skip the wiring section).
+3. Attach all of the endstops accurately - you must here the click sound as soon as the x-axis segment touches the buildplate.
+4. Connect the wires of the motors as per the diagram - and DO NOT connect in wrong order as it can also cause fire.
+5. Once you are sure that the wires are connected properly, connect the Ramps to the 12V power unit with thick wires, with both 11A and 5A using different wires.
+6. Start the system.
+
 # Features
 
 * Fully open-source firmware (Marlin) alongside Klipper
@@ -103,6 +123,7 @@ If you have any queries regarding this, you can always email me on <saksham.khat
 * Tuned stepper calibration
 * Capable of producing high-quality prototype parts
 * Built completely from scratch without a pre-built kit
+
 
 # Important Build Notes
 
