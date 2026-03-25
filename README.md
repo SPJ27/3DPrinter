@@ -70,6 +70,32 @@ I followed the circuit design below and used several online references while bui
 | 1x MK8 Extruder Kit | [₹1773](https://robu.in/product/mk8-extruder-kit-makerbot-prusa-i3-3d-printer-1-75-0-4mm-printhead/) | [Search on Amazon](https://www.amazon.com/s?k=mk8+extruder) |
 | 2x 100K Thermistors | [₹99 (approx)](https://robu.in/product/100k-ntc-thermistor/) | [Search on Amazon](https://www.amazon.com/s?k=100k+thermistor+3d+printer) |
 
+# List of Hardware Parts
+
+List of GT2 System
+ - GT2 Timing Belt  - 6mm x 200cm
+ - Motor Pulley x 2 - 16teeth, 6mm
+ - Idler Pulley x 2 - 16teeth, 6mm
+
+Bearings and Motion Systems
+ - 628ZZ Bearing x 2 - 8x24x8mm
+ - Flexible Coupling x 2 - 5x8mm
+ - LM8UU x 12 - 8mm
+
+PTFE System - If you are not using direct extruder
+ - PTFE Tube - 2mm*4mm
+ - PC4 M6 - 2 (1 for spare)
+ - PC4 M10 - 2 (1 for spare)
+
+## Optional But Recommended Upgrades
+ - Raspberry Pi Zero 2W - It runs Klipper, which is probably the best optional upgrade for your printer as it provides better motion control, finer tunning, etc.
+ - BigTreeTech Manta MP4 - This board has Klipper integrated into it along with all of the ports for motors, thermistors, endstops, etc.
+ - BIGTREETECH BTT Octopus Pro - This is alternative to Ramps1.4, and it can be used if you want more power and more sleeker design, but it does not run klipper.
+ 
+ - What I recommend - 
+   1. If you want it to be cost effective - Use Raspberry Pi Zero 2W + Ramps1.4
+   2. If you want a better board - Use Manta MP4 
+
 ### Cost Summary
 
 - **Full Kit Cost:** ₹7671  
@@ -107,6 +133,10 @@ If you still want to build it using PVC and Wood, you can watch this [amazing vi
 
 If you have any queries regarding this, you can always email me on <saksham.khatod27@gmail.com>.
 
+# Why you should/should not build it?
+1. If you are a hardware geek - You should definitely build it. This will be a great learning experience and it is quite challenging which improve your skills.
+2. If you are not a hardware geek - This option may be cheaper, but it required a lot of experience with hardware (not necessarily 3d printing). Instead, I recommend you to get Bambu Labs A1/A1 mini
+
 # A Very Rough Overview on Building it
 
 1. Get all of the parts as mentioned above along with Prusa i3 parts and hardware parts above.
@@ -116,6 +146,13 @@ If you have any queries regarding this, you can always email me on <saksham.khat
 5. Once you are sure that the wires are connected properly, connect the Ramps to the 12V power unit with thick wires, with both 11A and 5A using different wires.
 6. Start the system.
 
+# Some resources - 
+
+1. [Hackster.io](https://www.hackster.io/DesiEngineer/how-to-make-a-big-3d-printer-at-home-using-arduino-4a7b79)
+2. [DIY Builder](https://www.youtube.com/watch?v=M-YXAS3R3-8)
+3. [RZTronics](https://www.youtube.com/watch?v=63Ei-H2gQ48&t=20s)
+4. [Superb Tech](https://www.youtube.com/watch?v=Rf2RQU0u3us)
+
 # Features
 
 * Fully open-source firmware (Marlin) alongside Klipper
@@ -123,7 +160,7 @@ If you have any queries regarding this, you can always email me on <saksham.khat
 * Tuned stepper calibration
 * Capable of producing high-quality prototype parts
 * Built completely from scratch without a pre-built kit
-
+* A Basic web controller using esp32
 
 # Important Build Notes
 
