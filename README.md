@@ -26,6 +26,10 @@ I have created a basic ESP32 based command utility that can send Marlin commands
 2. Connect the RX and TX
 3. Power the 5V pin via the Ramps
 
+I am not actually going to use it because I already have Klipper installed. I was planning to build a multicolor print system using esp32 by reading Marlin responses to the board and switching filaments using multiple extruders (command M600 to be precise), but I discovered about MMU2S thing and now I am going to abandon this new esp32 device.
+
+It would require high CAD design skillsand precise filament paths, something that I don't have yet but will learn in future. Also, what I had planned in my mind was very similar to MMU2S. It would also require a bunch of new stepper motors, and I am planning to upgrade to Bambu A1.
+
 ## 25th March - New Update! - Multicolor prints via MMU2S
 
 You can now do multicolor prints using Prusa MMU2S. It is a fairly simple device as compared to the printer, and can be built using this [guide](https://www.bu.edu/eng/files/2022/10/prusa3d_manual_mmu2s_en.pdf). 
