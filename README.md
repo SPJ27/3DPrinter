@@ -28,6 +28,16 @@ To use -
 I am planning to improve this interface for wireless prints (similar to klipper)
 For example - M500, M600, etc.
 
+# New Update! - Multicolor Prints using Prusa MMU2S
+
+If you want to do multicolor prints via this printer, you can build an MMU2S. This is the [guide](https://www.bu.edu/eng/files/2022/10/prusa3d_manual_mmu2s_en.pdf) to build it.
+
+Although I have not tested this yet, some people say that it works well but wastes filament a lot. It requires Marlin 2.0 or more to work, as the older firmware is not compatible with this.
+
+Even though this system is pretty old, it is still probably the best option to do multicolor prints. Using it with Klipper gives you easier and better control over MMU2S.
+
+Marlin 2.0 requires firmware changes and tweakings to handle MMU2S, whereas Klipper can do it using the Happy Hare project.
+
 # How to use it?
 
 1. Get the .stl file - Design it yourself or download from the internet
@@ -127,7 +137,7 @@ You can buy the parts from here - [Prusa i3 parts](https://www.amazon.in/Prusa-M
 
 You can also 3D print the **.stl files** in this repo if you know someone who can do it for you but use **PETG** or **ABS**.
 
-Also, you can follow the [Prusa i3 Guide](https://www.bu.edu/eng/files/2022/10/prusa3d_manual_mk3s_en.pdf) and buy hardware parts accordingly
+Also, you can follow the [Prusa i3 Guide](https://www.bu.edu/eng/files/2022/10/prusa3d_manual_mk3s_en.pdf). This is going to give you good structural support. The hardware parts above are compatible with this. Also, this is probably the best thing that you can do for hardware part.
 
 If you still want to build it using PVC and Wood, you can watch this [amazing video](https://www.youtube.com/watch?v=MC2ERhZPnUU) by Mech Ninja (the one that I followed). But the video is slightly incomplete, and you need to figure out a few things on your own.
 
@@ -187,4 +197,4 @@ Planned upgrades include:
 * Auto bed leveling
 * Higher precision motion tuning
 * Display interface for printer control
-* Multicolour prints
+* Multicolour prints 
