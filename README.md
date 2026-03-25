@@ -2,7 +2,7 @@
 
 My video on it - [DangerouslyCoolStuff](https://www.youtube.com/watch?v=zr9rF5x8NEw)
 
-This is the 3D Printer that I build from scratch. It is also the most technically challenging project that I have built yet. This runs Marlin on Mega2560 with Ramps1.4 with Klipper(RPi Zero 2W) Extension.
+This is the 3D Printer that I build from scratch. It is also the most technically challenging project that I have built yet. This runs Marlin on Mega2560 with Ramps1.4 with Klipper(I am using Jetson Nano for it) Extension.
 
 The build volume is approximately 22x22x22cm, which is pretty good in comparison to other cheap printers. It costed me about $135 to build (₹12500). The software in it is Marlin. 
 
@@ -42,6 +42,7 @@ This printer was made using -
 * Arduino Mega 2560
 * Ramps 1.4 Controller
 * Marlin and Klipper
+* Jetson Nano
 * Bed Slinger
 * 12V PSU 
 
